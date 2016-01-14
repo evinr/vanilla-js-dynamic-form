@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+.side, #content {
+	height: 100%;
+	float: left;
+}
+
+.side {
+	width: 40%;
+}
+
+#content {
+	width: 60%;
+	background-color: blue;
+}
+
+#results {
+	width: 100%;
+	background-color:violet;
+	height: 100%;
+	padding: 5%;
+}
+
+.skills {
+	background-color: white;
+	margin-bottom: 5%;
+	width: 90%;
+}
+
+.skills .button {
+	float: right;
+	margin-top: -4%;
+}
+
+.header {
+	padding: 3%;
+}

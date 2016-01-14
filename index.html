@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dynamic Vanilla JavaScript Forms</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<link rel='stylesheet' type='text/css' href='./styles.css'>
+	<script src='./app.js'></script>
+	<style type='text/css'>
+	</style>
+</head>
+<body>
+	<div class='side'>
+		<p>Begin by creating catagories that will be populated with skills</p>
+		<form id='catagory-form' onsubmit='event.preventDefault();'>
+			<input type='text' placeholder='Type catagory here...' name='catagory' id='catagory-input' onkeypress='if (event.keyCode==13){ createNewCatagory()}'>
+			<input type='button' value='Create' onclick='createNewCatagory()'>
+		</form>
+		<div id='results'>
+		</div>
+	</div>	
+	<div id='content'>
+	</div>	
+</body>
+
+<script>
+</script>
+</html>
